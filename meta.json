@@ -4,23 +4,16 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "ids",
+            "title":"Array of ids"
+        },
+        {
+            "id": "type",
+            "title":"artist or user"
         }
-        */
     ],
     //Required. Outputs the module emits.
-    "outputs": [
-      //e.g.
-      /*
-        {
-            "id": "from",
-            "title":"From"
-        }
-      */
-    ],
+    "outputs": [],
     "title": "Spotify Follow Artist or User" /* Required.A display name for the module */
 }
