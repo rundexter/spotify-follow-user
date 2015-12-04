@@ -109,8 +109,8 @@ module.exports = {
 
         spotifyApi[method](apiIds)
             .then(function(data) {
-                console.log(data);
-                this.complete(this.pickResult(data, globalPickResult));
+
+                this.complete({});
             }.bind(this), function(err) {
 
                 this.fail(this.failureProcess(err, dexter));
