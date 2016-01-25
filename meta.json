@@ -15,6 +15,12 @@
     ],
     //Required. Outputs the module emits.
     "outputs": [],
+    "providers": [{
+        "name": "spotify",
+        "scopes": [
+            "user-follow-modify"
+        ]
+    }],
     "icon": "spotify",
     "title": "Spotify Follow Artist or User" /* Required.A display name for the module */
 }
